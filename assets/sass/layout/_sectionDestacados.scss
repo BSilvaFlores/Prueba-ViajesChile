@@ -1,0 +1,23 @@
+.destacados{
+
+    &__cardImg{
+        height: 230px;
+    }
+    
+    &__parrafos{
+        text-align: center;
+        padding-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    &__card-icon{
+        font-size: 19px;
+        padding-right: 10px;
+    }
+    
+    &__card-precio{
+        font-size: 25px;
+    }
+}

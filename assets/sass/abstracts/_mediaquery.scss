@@ -1,0 +1,43 @@
+@media screen and (max-width: 991.98px) {
+    .carousel-item{
+        height: 500px;
+    } 
+}
+
+@media screen and (max-width: 575px) {
+
+    .header__carruImg{
+        border-radius: 15px;
+    }
+
+    .quienesSomos__img-div{
+        display: none;
+    }
+
+
+    .carousel-item{
+        height: 300px;
+    }
+
+    .inputWidth{
+        width: 155px;
+    }
+
+    .inputEmail{
+        width: 165px;
+    }
+
+    .inputWidth2{
+        width: 330px;
+    }
+
+
+    .destacados__cardImg{
+        width: 100%;
+        border-radius: 6px;
+    }
+
+    .testimonios__contenedor{
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.1/css/all.css" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <title>Viajes Chile BEM</title>
+</head>
+
+<body>
+    <header id="inicio" class="header container">
+        <div class="header__carrusel carousel slide" id="carouselExampleCaptions">
+
+            <nav class="header__nav-a container navbar navbar-dark navbar-transparent fixed-top navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-light col-7 poppins-regular" href="#inicio"><img class="header__navImg"
+                            src="./assets/img/viajes.svg" alt="iconViajes">Viajes Chile</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav text-end">
+                            <a class="nav-link" href="#inicio">Inicio</a>
+                            <a class="nav-link" href="#quienesSomos">Quienes Somos</a>
+                            <a class="nav-link" href="#destacados">Destacado</a>
+                            <a class="nav-link" href="#testimonios">Testimonios</a>
+                            <a class="nav-link" href="#contactos">Contacto</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="header__carru carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/carousel1.jpg" class="header__carruImg d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel2.jpg" class="header__carruImg d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel3.jpg" class="header__carruImg d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <section id="quienesSomos" class="quienesSomos container">
+        <h2 class="quienesSomos__titulo">¿Quienes somos?
+            <hr>
+        </h2>
+
+        <div class="container row">
+            <div class="quienesSomos__img-div col-6">
+                <img class="quienesSomos__img" src="./assets/img/quienes-somos.jpg" alt="">
+            </div>
+
+            <div class="col-sm-12 col-lg-6">
+                <p class="quienesSomos__p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum veritatis
+                    earum laudantium quasi repellendus. Molestiae accusamus maxime, pariatur perspiciatis a ex!
+                    Reiciendis animi at ullam dolore sequi, perferendis laborum assumenda pariatur voluptatum, quisquam,
+                    incidunt consequatur ipsam. Quaerat voluptatibus assumenda labore eius sunt dignissimos tempore,
+                    possimus, error odit repellendus debitis fugit exercitationem a maxime iure! Laboriosam reiciendis
+                    similique repudiandae quidem maiores nihil expedita, atque odio assumenda. Reiciendis, voluptatem.
+                </p>
+                <p class="quienesSomos__p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime magnam
+                    labore dolores accusamus facilis quas impedit consequatur voluptatibus accusantium. Nemo distinctio
+                    minima suscipit omnis aspernatur necessitatibus ipsa illum alias earum beatae. Quis, consectetur
+                    nostrum sapiente dolorem asperiores fugit reiciendis eum corrupti tempore tenetur minus, quo enim
+                    harum aspernatur ratione voluptate incidunt soluta sunt quos, blanditiis beatae! Ut consequatur at.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="destacados" class="destacados container ">
+        <h2 class="destacados__titulo">Destacados
+            <hr>
+        </h2>
+
+        <div class="destacados__divPrincipal row">
+            <div class="col-sm-12 col-lg-6">
+                <div class="destacados__card card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./assets/img/card1.jpg" class="destacados__cardImg img-fluid rounded-start"
+                                alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="destacados__card-titulo card-title">Región de los lagos</h5>
+                                <p class="destacados__card-p card-text">This is a wider card with supporting text below
+                                    as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="destacados__parrafos row">
+                                    <p class="card-text col-6"><small class="text-body-secondary"><i
+                                                class="destacados__card-icon fa-solid fa-plane-up"></i>Vuelos
+                                            desde</small>
+                                    </p>
+                                    <p class="destacados__card-precio col-6">$159.990</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destacados__card card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./assets/img/card2.jpg" class="destacados__cardImg img-fluid rounded-start"
+                                alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="destacados__card-titulo card-title">Norte grande de Chile</h5>
+                                <p class="destacados__card-p card-text">This is a wider card with supporting text below
+                                    as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="destacados__parrafos row">
+                                    <p class="card-text col-6"><small class="text-body-secondary"><i
+                                                class="destacados__card-icon fa-solid fa-plane-up"></i>Vuelos
+                                            desde</small>
+                                    </p>
+                                    <p class="destacados__card-precio col-6">$289.990</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-lg-6">
+                <div class="destacados__card card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./assets/img/card3.jpg" class="destacados__cardImg img-fluid rounded-start"
+                                alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="destacados__card-titulo card-title">Desierto de Atacama</h5>
+                                <p class="destacados__card-p card-text">This is a wider card with supporting text below
+                                    as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="destacados__parrafos row">
+                                    <p class="card-text col-6"><small class="text-body-secondary"><i
+                                                class="destacados__card-icon fa-solid fa-plane-up"></i>Vuelos
+                                            desde</small>
+                                    </p>
+                                    <p class="destacados__card-precio col-6">$189.990</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destacados__card card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./assets/img/card4.jpg" class="destacados__cardImg img-fluid rounded-start"
+                                alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="destacados__card-titulo card-title">Bosque mágico</h5>
+                                <p class="destacados__card-p card-text">This is a wider card with supporting text below
+                                    as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="destacados__parrafos row">
+                                    <p class="card-text col-6"><small class="text-body-secondary"><i
+                                                class="destacados__card-icon fa-solid fa-plane-up"></i>Vuelos
+                                            desde</small>
+                                    </p>
+                                    <p class="destacados__card-precio col-6">$259.990</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonios" class="testimonios container">
+        <h2 class="testimonios__titulo">Testimonios
+            <hr>
+        </h2>
+        <div class="row">
+            <div class="testimonios__contenedor col-sm-12 col-lg-4">
+                <p class="testimonios__p">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, id placeat amet mollitia totam
+                    dignissimos nihil ab, rem accusantium nesciunt labore quae ullam sint suscipit dolore sed harum, nam
+                    commodi.
+                </p>
+
+                <img class="testimonios__img" src="./assets/img/testimonio1.jpg" alt="">
+                <p class="testimonios__nombres">Mariela</p>
+            </div>
+
+            <div class="testimonios__contenedor col-sm-12 col-lg-4">
+                <p class="testimonios__p">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, id placeat amet mollitia totam
+                    dignissimos nihil ab, rem accusantium nesciunt labore quae ullam sint suscipit dolore sed harum, nam
+                    commodi.
+                </p>
+
+                <img class="testimonios__img" src="./assets/img/testimonio2.jpg" alt="">
+                <p class="testimonios__nombres">Christian</p>
+            </div>
+
+            <div class="testimonios__contenedor col-sm-12 col-lg-4">
+                <p class="testimonios__p">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, id placeat amet mollitia totam
+                    dignissimos nihil ab, rem accusantium nesciunt labore quae ullam sint suscipit dolore sed harum, nam
+                    commodi.
+                </p>
+
+                <img class="testimonios__img" src="./assets/img/testimonio3.jpg" alt="">
+                <p class="testimonios__nombres">Fernanda</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contactos" class="footer container">
+        <h2 class="footer__titulo">Contacto
+            <hr>
+        </h2>
+
+        <div class="container row">
+            <form class="footer__form col-sm-12 col-lg-6">
+                <div class="row">
+                    <div class="col-6 mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre
+                            <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="right"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="This top tooltip is themed via CSS variables."></i>
+                        </label>
+                        <input type="name" class="inputWidth form-control" id="exampleFormControlInput1" placeholder="Nombre...">
+                    </div>
+
+                    <div class="col-6 mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email
+                            <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="right"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="This top tooltip is themed via CSS variables."></i>
+                        </label>
+                        <input type="email" class="inputEmail form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                </div>
+
+
+
+
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje
+                        <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-custom-class="custom-tooltip"
+                        data-bs-title="This top tooltip is themed via CSS variables."></i>
+                    </label>
+                    <textarea class="form-control inputWidth2" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        <a class="form__a-conditions" href="#" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">Acepto los términos y condiciones</a>
+                    </label>
+                </div>
+
+                <button id="enviarMensaje" type="button" class="form__button btn btn-light">
+                    Enviar
+                </button>
+            </form>
+
+            <div class="footer__divIcons col-sm-12 col-lg-6">
+                <div class="col-12 footer__contact">
+                    <i class="fa-solid fa-phone footer__icons"></i>+56999887766
+                </div>
+                <div class="col-12 footer__contact">
+                    <i class="fa-solid fa-envelope footer__icons"></i>contacto@viajeschile.com
+                </div>
+                <div class="col-12 footer__contact">
+                    <i class="fa-brands fa-linkedin footer__icons"></i>ViajesChile
+                </div>
+                <div class="col-12 footer__contact">
+                    <i class="fa-brands fa-instagram footer__icons"></i>Tu Instagram
+                </div>
+            </div>
+        </div>
+    </footer>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-secondary" id="staticBackdropLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-secondary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur impedit maiores quasi dolorum
+                    vero suscipit deserunt molestiae. Id animi possimus, facere praesentium tempore illum tenetur
+                    reiciendis. Provident doloribus atque ab voluptatibus quam? Nihil sit voluptate consectetur ea,
+                    dignissimos perferendis enim facilis aut exercitationem numquam aliquid, impedit repellendus quia
+                    quo debitis!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <script type="module" src="./assets/js/script.js"></script>
+    <script src="./assets/js/index.js"></script>
+
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+</body>
+
+</html>

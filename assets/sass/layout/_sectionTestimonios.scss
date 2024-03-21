@@ -1,0 +1,25 @@
+.testimonios{
+    text-align: center;
+
+    &__nombres, &__p{
+        color: $success;
+    }
+    
+    
+    
+    &__img{
+        width: 70px;
+        height: 70px;
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+    }
+    
+    &__nombres{
+        margin-top: 10px;
+    }
+    
+    &__p{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}

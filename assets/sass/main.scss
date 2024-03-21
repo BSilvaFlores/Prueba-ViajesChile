@@ -1,0 +1,52 @@
+// bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+// base
+@import "./base/base";
+@import "./base/typography";
+
+
+// components
+@import "./components/carrusel";
+@import "./components/buttons";
+
+// layout
+@import "./layout/header";
+@import "./layout/sectionQuienesSomos";
+@import "./layout/sectionDestacados";
+@import "./layout/sectionTestimonios";
+@import "./layout/footer";
+
+// pages
+
+// themes
+
+// abstracts
+@import "./abstracts/mediaquery";
+
+// vendors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
