@@ -1,0 +1,262 @@
+/* GENERAL */
+
+*{
+    font-family: 'Poppins';
+}
+
+body{
+    background-color: #000000;
+    
+}
+
+h2{
+    text-align: center;
+    color: #f8f9fa;
+    padding-left: 70px; 
+    padding-right: 70px;
+}
+
+
+
+section{
+    padding-bottom: 50px;
+}
+
+/* NAV */
+
+
+/* HEADER */
+
+
+
+
+/* SECTIONS */
+.section-contacto, .section-destacados, .section-quienes-somos, nav{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+/* SECTION QUIENES-SOMOS */
+.tarjeta{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.tarjeta-medio{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.section-quienes-somos{
+    padding-top: 35px;
+}
+
+
+/* SECTION DESTACADOS */
+
+.img-destacado{
+    height: 250px;
+    width: 100%;
+}
+
+.card-destacado{
+    border: 1px solid white;
+}
+
+
+
+
+
+/* SECTION CONTACTO */
+
+
+
+/* FOOTER */
+.section-iconos{
+    display: flex;
+
+    justify-content: center;
+}
+
+.iconos-footer{
+    font-size: 30px;
+}
+
+
+
+/* MEDIA QUERY */
+.section-quienes-somos{
+
+    @media (max-width: 1024px) {
+        display: none;
+    }
+ 
+}
+
+.navbar{
+    @media (max-width: 1280px) {
+        margin-right: 150px;
+    }
+}
+
+.navbar{
+    @media (max-width: 767px) {
+        margin-right: 50px;
+    }
+}
+
+h2{
+    @media (max-width: 767px) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.section-destacados{
+    @media (max-width: 1024px) {
+        padding-top: 25px;
+        
+    }
+}
+
+.desta{
+    @media (max-width: 1024px) {
+        height: 150px;
+    }
+}
+
+.desta{
+    @media (max-width: 767px) {
+        height: 250px;
+    }
+}
+
+.desta{
+    @media (min-width: 1025px) {
+        height: 210px;
+    }
+}
+
+.section-destacados{
+    @media (max-width: 767px) {
+        width: 420px;
+        padding-left: 15px;
+    }
+}
+
+.ancho{
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+}
+
+/* GOOGLE FONTS */
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
